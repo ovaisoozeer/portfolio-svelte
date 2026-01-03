@@ -6,4 +6,9 @@
 </script>
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
+
+<div class="navbar bg-base-100 shadow-sm">
+	<a class="btn text-xl btn-ghost" href="www.github.com">name</a>
+</div>
+
 {@render children()}

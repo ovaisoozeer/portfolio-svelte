@@ -13,6 +13,9 @@
 		"format": "prettier --write .",
 		"lint": "prettier --check . && eslint ."
 	},
+	"dependencies": {
+		"daisyui": "^5.5.14"
+	},
 	"devDependencies": {
 		"@eslint/compat": "^1.4.0",
 		"@eslint/js": "^9.39.1",
