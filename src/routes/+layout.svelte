@@ -10,7 +10,6 @@
 <div class="drawer">
 	<input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
 	<div class="drawer-content flex flex-col">
-		<!-- Navbar -->
 		<div class="navbar w-full bg-base-300">
 			<div class="flex-none lg:hidden">
 				<label for="my-drawer-2" aria-label="open sidebar" class="btn btn-square btn-ghost">
@@ -32,7 +31,6 @@
 			<div class="mx-2 flex-1 px-2"><a href="/">Ovais Oozeer</a></div>
 			<div class="hidden flex-none lg:block">
 				<ul class="menu menu-horizontal">
-					<!-- Navbar menu content here -->
 					<li><a href="/">Home</a></li>
 					<li><a href="cv">CV</a></li>
 					<li><a href="work">Work</a></li>
@@ -42,13 +40,37 @@
 				</ul>
 			</div>
 		</div>
-		<!-- Page content here -->
-		{@render children()}
+		<div class="m-8">
+			{@render children()}
+		</div>
+		<footer class="footer bg-neutral p-10 text-neutral-content sm:footer-horizontal">
+			<aside class="grid-flow-col items-center">
+				<p>Copyright © {new Date().getFullYear()} Expertly Pragmatic Ltd - All right reserved</p>
+			</aside>
+			<nav>
+				<h6 class="footer-title">Consultancy</h6>
+				<a class="link link-hover" href="introduction">Introduction</a>
+				<a class="link link-hover" href="types-of-work">Services</a>
+				<a class="link link-hover" href="pricing">Pricing</a>
+			</nav>
+			<nav>
+				<h6 class="footer-title">Community</h6>
+				<a class="link link-hover" href="events">Events</a>
+			</nav>
+			<nav>
+				<h6 class="footer-title">Info</h6>
+				<a class="link link-hover" href="contact">Contact</a>
+				<a
+					class="link link-hover"
+					href="https://find-and-update.company-information.service.gov.uk/company/16110928"
+					>Expertly Pragmatic Ltd (VAT Registered)</a
+				>
+			</nav>
+		</footer>
 	</div>
 	<div class="drawer-side">
 		<label for="my-drawer-2" aria-label="close sidebar" class="drawer-overlay"></label>
 		<ul class="menu min-h-full w-80 bg-base-200 p-4">
-			<!-- Sidebar content here -->
 			<li><a href="/">Home</a></li>
 			<li><a href="cv">CV</a></li>
 			<li><a href="work">Work</a></li>
