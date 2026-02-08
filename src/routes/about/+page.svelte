@@ -44,12 +44,4 @@
   <p class="text-l mb-4 text-center tracking-wide">
     <a href="explore" class="link">View content, community, and events</a>.
   </p>
-  <p class="text-l mb-4 hidden text-left tracking-wide">
-    - Project history - → what I do → examples of projects → include purpose of the projects Tell a
-    story. Give me all the details. Write a story, using images too show past projects - What’s the
-    story of what I did at various roles? - What is the story I want to tell? - What I Accomplished.
-    What was the Impact. - I can frame things however I want. - My history does not define me. I can
-    be anything I want to be. - Who do I want to repel? Include identity as a topic Have a line that
-    stands out
-  </p>
 </div>
