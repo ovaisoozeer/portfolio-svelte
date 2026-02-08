@@ -28,12 +28,13 @@
           </svg>
         </label>
       </div>
-      <div class="mx-2 flex-1 px-2 tracking-wide"><a href="/">Ovais Oozeer</a></div>
+      <div class="mx-2 flex-1 px-2 tracking-wide text-3xl"><a href="/">Ovais Oozeer</a></div>
       <div class="hidden flex-none lg:block">
         <ul class="menu menu-horizontal">
-          <li><a href="cv tracking-wide">CV</a></li>
-          <li><a href="blog tracking-wide">Blog</a></li>
-          <li><a href="events tracking-wide">Events</a></li>
+          <li><a href="services" class="tracking-wide">Services</a></li>
+          <li><a href="brass-tacks" class="tracking-wide">Contact</a></li>
+          <li><a href="blog" class="tracking-wide">Blog</a></li>
+          <li><a href="events" class="tracking-wide">Events</a></li>
         </ul>
       </div>
     </div>
@@ -46,17 +47,18 @@
       </aside>
       <nav>
         <h6 class="footer-title tracking-wide">Consultancy</h6>
-        <a class="link tracking-wide link-hover" href="introduction">Introduction</a>
-        <a class="link tracking-wide link-hover" href="types-of-work">Services</a>
-        <a class="link tracking-wide link-hover" href="pricing">Pricing</a>
+        <a class="link tracking-wide link-hover" href="introduction">About</a>
+        <a class="link tracking-wide link-hover" href="services">Services</a>
       </nav>
       <nav>
-        <h6 class="footer-title tracking-wide">Community</h6>
+        <h6 class="footer-title tracking-wide">Content</h6>
+        <a class="link tracking-wide link-hover" href="blog">Blog</a>
         <a class="link tracking-wide link-hover" href="events">Events</a>
       </nav>
       <nav>
         <h6 class="footer-title tracking-wide">Info</h6>
-        <a class="link tracking-wide link-hover" href="contact">Contact</a>
+        <a class="link tracking-wide link-hover" href="brass-tacks">Contact</a>
+        <a class="link tracking-wide link-hover" href="brass-tacks">CV</a>
         <a
           class="link tracking-wide link-hover"
           href="https://find-and-update.company-information.service.gov.uk/company/16110928"
@@ -69,9 +71,8 @@
     <label for="my-drawer-2" aria-label="close sidebar" class="drawer-overlay"></label>
     <ul class="menu min-h-full w-80 bg-base-200 p-4">
       <li><a href="/">Home</a></li>
-      <li><a href="cv">CV</a></li>
-      <li><a href="work">Work</a></li>
-      <li><a href="about">About</a></li>
+      <li><a href="services">Services</a></li>
+      <li><a href="brass-tacks">Contact</a></li>
       <li><a href="blog">Blog</a></li>
       <li><a href="events">Events</a></li>
     </ul>

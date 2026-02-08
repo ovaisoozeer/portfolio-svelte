@@ -1,25 +1,16 @@
-<div class="mb-8 flex w-full flex-col">
-  <h2 class="m-4 text-center text-4xl tracking-wide">What I do</h2>
-  <p class="text-l mb-4 text-left tracking-wide">
-    I build applications, services, and platforms and like to think of myself as a
-    platform-agnostic, hands-on tech lead with a particular focus on people.
+<div class="mb-8 flex w-full flex-col text-center">
+  <h2 class="m-4 text-center text-4xl tracking-wide">About</h2>
+  <p class="text-l mb-4 text-center tracking-wide">
+    A platform-agnostic, hands-on tech lead who enjoys collaboration.
   </p>
-  <p class="text-l mb-4 text-left tracking-wide">
-    On most projects, I have led requirements engineering, solution design, and implementation. The
-    domain varies, as does the tech stack. There's public and private sector. Rapid prototyping and
-    long term maintenance. Big budget and shoestring.
+  <p class="text-l mb-4 text-center tracking-wide">
+    I build applications, services, and platforms for the private and public sector.
   </p>
-  <p class="text-l mb-4 text-left tracking-wide">
-    I also enjoy teaching and learning from people with different experience and perspectives. You
-    can read more about that <a href="explore" class="link">here.</a>
+  <p class="text-l text-center tracking-wide">
+    I typically promote the following:
   </p>
-  <p class="text-l mb-4 text-left tracking-wide">
-    My projects tend to be characterised by the following:
-  </p>
-
-  <ul class="list rounded-box bg-base-100 shadow-md">
+  <ul class="list mb-4 rounded-box bg-base-100 shadow-md">
     <li class="list-row">
-      <div class="text-4xl font-thin tabular-nums opacity-30">01</div>
       <div class="list-col-grow">
         <div class="text-xs font-semibold uppercase opacity-60">
           Transparency and psychological safety
@@ -28,14 +19,12 @@
       </div>
     </li>
     <li class="list-row">
-      <div class="text-4xl font-thin tabular-nums opacity-30">02</div>
       <div class="list-col-grow">
         <div class="text-xs font-semibold uppercase opacity-60">Risk mitigation</div>
-        <div>Change is embraced when decisions tend to be high impact and low cost.</div>
+        <div>Change is embraced when decisions are high impact and low cost.</div>
       </div>
     </li>
     <li class="list-row">
-      <div class="text-4xl font-thin tabular-nums opacity-30">03</div>
       <div class="list-col-grow">
         <div class="text-xs font-semibold uppercase opacity-60">
           A high degree of individual autonomy
@@ -46,4 +35,21 @@
       </div>
     </li>
   </ul>
+  <p class="text-l mb-4 text-center tracking-wide">
+    <a href="types-of-work" class="link">View a breakdown of my services</a>.
+  </p>
+  <p class="text-l mb-4 text-center tracking-wide">
+    <a href="case-studies" class="link">Explore some case studies</a>.
+  </p>
+  <p class="text-l mb-4 text-center tracking-wide">
+    <a href="explore" class="link">View content, community, and events</a>.
+  </p>
+  <p class="text-l mb-4 hidden text-left tracking-wide">
+    - Project history - → what I do → examples of projects → include purpose of the projects Tell a
+    story. Give me all the details. Write a story, using images too show past projects - What’s the
+    story of what I did at various roles? - What is the story I want to tell? - What I Accomplished.
+    What was the Impact. - I can frame things however I want. - My history does not define me. I can
+    be anything I want to be. - Who do I want to repel? Include identity as a topic Have a line that
+    stands out
+  </p>
 </div>

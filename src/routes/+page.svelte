@@ -1,5 +1,5 @@
 <div class="mb-8 flex w-full flex-col items-center">
-  <h1 class="m-4 text-center text-6xl tracking-wide">Hi, my name is Ovais 👋🏽</h1>
+  <h1 class="m-4 text-center text-6xl tracking-wide">Hi, my name is Ovais</h1>
   <h4 class="text-l mt-4 mb-8 text-center tracking-wide"><em>(əʊveɪs, he/him)</em></h4>
 </div>
 <div class="mt-8 grid grid-cols-1 gap-6 md:grid-cols-3">
