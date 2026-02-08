@@ -31,10 +31,7 @@
 			<div class="mx-2 flex-1 px-2"><a href="/">Ovais Oozeer</a></div>
 			<div class="hidden flex-none lg:block">
 				<ul class="menu menu-horizontal">
-					<li><a href="/">Home</a></li>
 					<li><a href="cv">CV</a></li>
-					<li><a href="work">Work</a></li>
-					<li><a href="about">About</a></li>
 					<li><a href="blog">Blog</a></li>
 					<li><a href="events">Events</a></li>
 				</ul>
