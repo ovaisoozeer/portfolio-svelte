@@ -1,7 +1,7 @@
 <script lang="ts">
   import { Section, HeroHeader } from 'flowbite-svelte-blocks';
   import { Button } from 'flowbite-svelte';
-  import { ArrowRightOutline } from 'flowbite-svelte-icons';
+  import { ArrowRightOutline, VolumeUpOutline } from 'flowbite-svelte-icons';
 </script>
 
 <Section name="heroVisual">
@@ -12,9 +12,9 @@
     >
       {#snippet h1()}Hi, my name is Ovais{/snippet}
       {#snippet paragraph()}
-        <p>(əʊveɪs, he/him)</p>
-        <p>A platform-agnostic, hands-on tech lead who enjoys collaboration.</p>
-        <p>I build applications, services, and platforms for the public and private sector.</p>
+        <VolumeUpOutline class="inline" /> əʊveɪs | he/him<br /><br />
+        A platform-agnostic, hands-on tech lead who enjoys collaboration.<br />
+        I build applications, services, and platforms for the public and private sector.<br />
       {/snippet}
       <a href="about">
         <Button color="light" size="xl" class="mr-3 inline-flex items-center justify-center">
