@@ -2,12 +2,11 @@
   import cvpdf from '$lib/assets/cv.pdf';
   import { Section, HeroHeader, FeatureDefault, FeatureItem } from 'flowbite-svelte-blocks';
   import {
-    ChartPieSolid,
-    LandmarkSolid,
-    BriefcaseSolid,
-    DollarOutline,
-    RocketSolid,
-    CogOutline
+    CalendarPlusOutline,
+    DownloadOutline,
+    MailBoxOutline,
+    PersonChalkboardOutline,
+    PhoneOutline
   } from 'flowbite-svelte-icons';
 </script>
 
@@ -22,34 +21,38 @@
   </HeroHeader>
   <FeatureDefault>
     <FeatureItem>
-      {#snippet icon()}<ChartPieSolid class="text-primary-600 dark:text-primary-300" />{/snippet}
+      {#snippet icon()}<DownloadOutline class="text-primary-600 dark:text-primary-300" />{/snippet}
       {#snippet h3()}CV{/snippet}
       {#snippet paragraph()}
         <a download="ovais-oozeer-cv.pdf" href={cvpdf}>Click here to download</a>
       {/snippet}
     </FeatureItem>
     <FeatureItem>
-      {#snippet icon()}<ChartPieSolid class="text-primary-600 dark:text-primary-300" />{/snippet}
+      {#snippet icon()}<PersonChalkboardOutline
+          class="text-primary-600 dark:text-primary-300"
+        />{/snippet}
       {#snippet h3()}Services{/snippet}
       {#snippet paragraph()}
         <a download="services" href={cvpdf}>Click here to explore services and pricing</a>
       {/snippet}
     </FeatureItem>
     <FeatureItem>
-      {#snippet icon()}<ChartPieSolid class="text-primary-600 dark:text-primary-300" />{/snippet}
+      {#snippet icon()}<MailBoxOutline class="text-primary-600 dark:text-primary-300" />{/snippet}
       {#snippet h3()}Email{/snippet}
       {#snippet paragraph()}
         Contact me at ovais@expertlypragmatic.com
       {/snippet}
     </FeatureItem>
     <FeatureItem>
-      {#snippet icon()}<ChartPieSolid class="text-primary-600 dark:text-primary-300" />{/snippet}
+      {#snippet icon()}<PhoneOutline class="text-primary-600 dark:text-primary-300" />{/snippet}
       {#snippet h3()}Phone{/snippet}
       {#snippet paragraph()}Call me on +44 (0)330 0430764
       {/snippet}
     </FeatureItem>
     <FeatureItem>
-      {#snippet icon()}<ChartPieSolid class="text-primary-600 dark:text-primary-300" />{/snippet}
+      {#snippet icon()}<CalendarPlusOutline
+          class="text-primary-600 dark:text-primary-300"
+        />{/snippet}
       {#snippet h3()}Book{/snippet}
       {#snippet paragraph()}
         <a target="_blank" href="https://calendar.app.google/PteCMAz5AeiBRbrp9" class="link">
