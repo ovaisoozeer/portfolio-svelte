@@ -10,21 +10,21 @@
       description:
         'Department for Levelling Up, Housing and Communities — delivery and product leadership.',
       image: dluhcImg,
-      href: '/case-studies/dluhc'
+      href: '/portfolio/dluhc'
     },
     {
       slug: 'mars',
       title: 'Mars',
       description: 'Product and delivery consultancy for global brand programmes.',
       image: marsImg,
-      href: '/case-studies/mars'
+      href: '/portfolio/mars'
     },
     {
       slug: 'tvg',
       title: 'TVG',
       description: 'Strategy and delivery for digital transformation.',
       image: tvgImg,
-      href: '/case-studies/tvg'
+      href: '/portfolio/tvg'
     }
   ];
 </script>

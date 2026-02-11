@@ -1,6 +1,12 @@
 <div class="mb-24 flex w-full flex-col items-center">
   <h1 class="m-4 text-center text-6xl tracking-wide">Hi, my name is Ovais</h1>
   <h4 class="text-l mb-8 text-center tracking-wide"><em>(əʊveɪs, he/him)</em></h4>
+  <p class="text-l mb-4 text-center tracking-wide">
+    A platform-agnostic, hands-on tech lead who enjoys collaboration.
+  </p>
+  <p class="text-l mb-4 text-center tracking-wide">
+    I build applications, services, and platforms for the public and private sector.
+  </p>
 </div>
 <div class="mt-8 mb-24 grid grid-cols-1 gap-6 md:grid-cols-3">
   <a href="about">

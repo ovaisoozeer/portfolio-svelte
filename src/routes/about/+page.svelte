@@ -1,47 +1,39 @@
 <div class="mb-8 flex w-full flex-col text-center">
   <h2 class="m-4 text-center text-4xl tracking-wide">About</h2>
-  <p class="text-l mb-4 text-center tracking-wide">
-    A platform-agnostic, hands-on tech lead who enjoys collaboration.
-  </p>
-  <p class="text-l mb-4 text-center tracking-wide">
-    I build applications, services, and platforms for the private and public sector.
-  </p>
-  <p class="text-l text-center tracking-wide">
-    I typically promote the following:
-  </p>
+  <p class="text-l text-center tracking-wide">I prefer to work in environments where</p>
   <ul class="list mb-4 rounded-box bg-base-100 shadow-md">
     <li class="list-row">
       <div class="list-col-grow">
         <div class="text-xs font-semibold uppercase opacity-60">
-          Transparency and psychological safety
+          Transparency and psychological safety are paramount
         </div>
-        <div>Healthy discussion is encouraged when you're in a respectful environment.</div>
+        <div>Where healthy discussion is encouraged</div>
       </div>
     </li>
     <li class="list-row">
       <div class="list-col-grow">
-        <div class="text-xs font-semibold uppercase opacity-60">Risk mitigation</div>
-        <div>Change is embraced when decisions are high impact and low cost.</div>
+        <div class="text-xs font-semibold uppercase opacity-60">Change is welcome</div>
+        <div>Making high-impact, low-cost decisions to reduce wasted effort</div>
       </div>
     </li>
     <li class="list-row">
       <div class="list-col-grow">
         <div class="text-xs font-semibold uppercase opacity-60">
-          A high degree of individual autonomy
+          Autonomy is favoured over hierarchy
         </div>
         <div>
-          Contributors are trusted to define their own work when there are clearly agreed objectives
+          Contributors are trusted to define their own work within clear boundaries
         </div>
       </div>
     </li>
   </ul>
   <p class="text-l mb-4 text-center tracking-wide">
-    <a href="types-of-work" class="link">View a breakdown of my services</a>.
+    <a href="portfolio" class="link">Portfolio</a>
   </p>
   <p class="text-l mb-4 text-center tracking-wide">
-    <a href="case-studies" class="link">Explore some case studies</a>.
+    <a href="types-of-work" class="link">Services</a>
   </p>
   <p class="text-l mb-4 text-center tracking-wide">
-    <a href="explore" class="link">View content, community, and events</a>.
+    <a href="explore" class="link">More</a>
   </p>
 </div>
