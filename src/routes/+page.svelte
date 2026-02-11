@@ -1,18 +1,6 @@
-<script lang="ts">
-  import { Alert } from "flowbite-svelte";
-</script>
-
-<div class="p-8">
-	<h1 class="my-8">Flowbite Svelte Starter</h1>
-  <Alert>
-    <span class="font-medium">Alert example</span>
-    Change a few things up and try submitting again.
-  </Alert>
-</div>
-
 <div class="mb-24 flex w-full flex-col items-center">
   <h1 class="m-4 text-center text-6xl tracking-wide">Hi, my name is Ovais</h1>
-  <h4 class="text-l mb-8 text-center tracking-wide"><em>(əʊveɪs, he/him)</em></h4>
+  <h3 class="text-l mb-8 text-center tracking-wide"><em>(əʊveɪs, he/him)</em></h3>
   <p class="text-l mb-4 text-center tracking-wide">
     A platform-agnostic, hands-on tech lead who enjoys collaboration.
   </p>
