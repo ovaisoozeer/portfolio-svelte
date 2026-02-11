@@ -27,6 +27,4 @@
     </NavUl>
   </Navbar>
 </header>
-<div class="mx-2 sm:mx-8 md:mx-16 lg:mx-32 w-full">
-  {@render children()}
-</div>
+{@render children()}
