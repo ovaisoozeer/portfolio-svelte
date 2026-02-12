@@ -1,39 +1,42 @@
-<div class="mb-8 flex w-full flex-col text-center">
-  <h2 class="m-4 text-center text-4xl tracking-wide">About</h2>
-  <p class="text-l text-center tracking-wide">I prefer to work in environments where</p>
-  <ul class="list mb-4 rounded-box bg-base-100 shadow-md">
-    <li class="list-row">
-      <div class="list-col-grow">
-        <div class="text-xs font-semibold uppercase opacity-60">
-          Transparency and psychological safety are paramount
-        </div>
-        <div>Where healthy discussion is encouraged</div>
-      </div>
-    </li>
-    <li class="list-row">
-      <div class="list-col-grow">
-        <div class="text-xs font-semibold uppercase opacity-60">Change is welcome</div>
-        <div>Making high-impact, low-cost decisions to reduce wasted effort</div>
-      </div>
-    </li>
-    <li class="list-row">
-      <div class="list-col-grow">
-        <div class="text-xs font-semibold uppercase opacity-60">
-          Autonomy is favoured over hierarchy
-        </div>
-        <div>
-          Contributors are trusted to define their own work within clear boundaries
-        </div>
-      </div>
-    </li>
-  </ul>
-  <p class="text-l mb-4 text-center tracking-wide">
-    <a href="portfolio" class="link">Portfolio</a>
-  </p>
-  <p class="text-l mb-4 text-center tracking-wide">
-    <a href="types-of-work" class="link">Services</a>
-  </p>
-  <p class="text-l mb-4 text-center tracking-wide">
-    <a href="explore" class="link">More</a>
-  </p>
-</div>
+<script lang="ts">
+  import { Section, Cta } from 'flowbite-svelte-blocks';
+</script>
+
+<Section name="cta">
+  <Cta ctatype="heading">
+    {#snippet h2()}Change over Planning{/snippet}
+    <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
+      Optimise outcomes with minimal waste. See past successes in my portfolio.
+    </p>
+    <a
+      href="portfolio"
+      class="mr-2 mb-2 rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:outline-none dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+    >
+      Portfolio
+    </a>
+  </Cta>
+  <Cta ctatype="heading" class="mt-16">
+    {#snippet h2()}Transparency over Guardedness{/snippet}
+    <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
+      Psychological safety promotes healthy discussion. See my pricing.
+    </p>
+    <a
+      href="services"
+      class="mr-2 mb-2 rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:outline-none dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+    >
+      Services & Pricing
+    </a>
+  </Cta>
+  <Cta ctatype="heading" class="mt-16">
+    {#snippet h2()}Autonomy over Hierarchy{/snippet}
+    <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
+      Trust in contributors with clear boundaries. Explore collaborations.
+    </p>
+    <a
+      href="explore"
+      class="mr-2 mb-2 rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:outline-none dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+    >
+      Content, Community, and Events
+    </a>
+  </Cta>
+</Section>
