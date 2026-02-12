@@ -6,7 +6,7 @@
   <Cta ctatype="heading">
     {#snippet h2()}Change over Planning{/snippet}
     <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
-      Optimise outcomes with minimal waste. See past successes in my portfolio.
+      Optimise outcomes with minimal waste. Review portfolio.
     </p>
     <a
       href="portfolio"
@@ -18,7 +18,7 @@
   <Cta ctatype="heading" class="mt-16">
     {#snippet h2()}Transparency over Guardedness{/snippet}
     <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
-      Psychological safety promotes healthy discussion. See my pricing.
+      Psychological safety promotes healthy discussion. Peruse pricing.
     </p>
     <a
       href="services"

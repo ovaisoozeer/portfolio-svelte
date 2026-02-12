@@ -1,70 +1,44 @@
 <script lang="ts">
-  import dluhcImg from '$lib/assets/dluhc.png';
-  import marsImg from '$lib/assets/mars.png';
-  import tvgImg from '$lib/assets/tvg.jpg';
+  import { Section, Portfolio, PortfolioItem } from 'flowbite-svelte-blocks';
 
-  const projects = [
+  const portfolios = [
     {
-      slug: 'dluhc',
-      title: 'DLUHC',
-      description:
-        'Department for Levelling Up, Housing and Communities — delivery and product leadership.',
-      image: dluhcImg,
-      href: '/portfolio/dluhc'
+      customer: 'Department for Levelling Up, Housing and Communities',
+      title: 'Architecture, prototyping',
+      description: 'Voter Cards website development and service assessment',
+      href: 'portfolio/dluhc',
+      linkTitle: 'View case study'
     },
     {
-      slug: 'mars',
-      title: 'Mars',
-      description: 'Product and delivery consultancy for global brand programmes.',
-      image: marsImg,
-      href: '/portfolio/mars'
+      customer: 'Mars, Inc. ',
+      title: 'Platform engineering',
+      description: 'Infrastructure, multiple workstreams, and competing goals.',
+      href: 'portfolio/mars',
+      linkTitle: 'View case study'
     },
     {
-      slug: 'tvg',
-      title: 'TVG',
-      description: 'Strategy and delivery for digital transformation.',
-      image: tvgImg,
-      href: '/portfolio/tvg'
+      customer: 'The Very Group',
+      title: 'Engineering management',
+      description: 'Long term transformation',
+      href: 'portfolio/tvg',
+      linkTitle: 'View case study'
     }
   ];
 </script>
 
-<div class="mb-8 flex w-full flex-col">
-  <h2 class="m-4 text-center text-4xl tracking-wide">Case studies</h2>
-  <p class="mx-auto mb-10 max-w-2xl text-center text-lg tracking-wide text-base-content/80">
-    Some recent case studies:
-  </p>
-</div>
+<Section name="portfolio" sectionClass="antialiased">
+  <Portfolio
+    title="Some recent case studies"
+    subtitle="Three deliberately different examples, to indicate breadth and depth"
+  >
+    {#each portfolios as item}
+      <PortfolioItem {item} />
+    {/each}
+  </Portfolio>
+</Section>
 
-<div class="mb-8 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-  {#each projects as project}
-    <a href={project.href} class="group">
-      <div class="card bg-base-200 shadow-xl transition-shadow hover:shadow-2xl">
-        <figure class="overflow-hidden">
-          <img
-            src={project.image}
-            alt={project.title}
-            class="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105"
-          />
-        </figure>
-        <div class="card-body">
-          <h3 class="card-title tracking-wide">{project.title}</h3>
-          <p class="line-clamp-3 text-sm tracking-wide text-base-content/80">
-            {project.description}
-          </p>
-          <div class="mt-2 card-actions justify-end">
-            <span class="link text-sm font-medium link-hover">View case study →</span>
-          </div>
-        </div>
-      </div>
-    </a>
-  {/each}
-</div>
-
-<p class="mx-auto mb-10 max-w-2xl text-center text-lg tracking-wide text-base-content/80">
-  Selected other projects and engagements:
-</p>
-<ul class="list items-center rounded-box bg-base-100 shadow-md">
+<p class="text-center">Selected other projects and engagements:</p>
+<ul class="w-full text-center">
   <li class="list-row">✈️ Civil Aviation Authority - Obstruction Management website - Developer</li>
   <li class="list-row">
     🚉 Rail Delivery Group - National Rail Enquiries, Common Services - Architect
