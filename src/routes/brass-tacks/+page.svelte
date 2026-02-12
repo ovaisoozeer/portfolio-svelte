@@ -15,17 +15,11 @@
   </HeroHeader>
   <FeatureDefault>
     <FeatureItem>
-      {#snippet icon()}<DownloadOutline class="text-primary-600 dark:text-primary-300" />{/snippet}
-      {#snippet h3()}Download CV{/snippet}
-      {#snippet paragraph()}
-        Click <a download="ovais-oozeer-cv.pdf" href={cvpdf}><u>here</u> </a> to download a PDF
-      {/snippet}
-    </FeatureItem>
-    <FeatureItem>
       {#snippet icon()}<MailBoxOutline class="text-primary-600 dark:text-primary-300" />{/snippet}
       {#snippet h3()}Say Hello{/snippet}
       {#snippet paragraph()}
-        Click <a href="mailto:ovais@expertlypragmatic.com"><u>here</u></a> to email ovais@expertlypragmatic.com, or<br />
+        Click <a href="mailto:ovais@expertlypragmatic.com"><u>here</u></a> to email
+        ovais@expertlypragmatic.com, or<br />
         <a href="tel:+443300430764"><u>Call</u></a> 0330 0430764
       {/snippet}
     </FeatureItem>
@@ -38,6 +32,13 @@
         Click <a target="_blank" href="https://calendar.app.google/PteCMAz5AeiBRbrp9">
           <u>here</u>
         </a> to book an intro call
+      {/snippet}
+    </FeatureItem>
+    <FeatureItem>
+      {#snippet icon()}<DownloadOutline class="text-primary-600 dark:text-primary-300" />{/snippet}
+      {#snippet h3()}Download CV{/snippet}
+      {#snippet paragraph()}
+        Click <a download="ovais-oozeer-cv.pdf" href={cvpdf}><u>here</u> </a> to download a PDF
       {/snippet}
     </FeatureItem>
   </FeatureDefault>
