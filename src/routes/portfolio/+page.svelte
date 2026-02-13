@@ -4,7 +4,7 @@
   const portfolios = [
     {
       customer: 'Department for Levelling Up, Housing and Communities',
-      title: 'Architecture, prototyping',
+      title: 'Architecture and prototyping',
       description: 'Voter Cards website development and service assessment',
       href: 'portfolio/dluhc',
       linkTitle: 'View case study'
@@ -28,8 +28,8 @@
 
 <Section name="portfolio" sectionClass="antialiased">
   <Portfolio
-    title="Some recent case studies"
-    subtitle="Three deliberately different examples, to indicate breadth and depth"
+    title="Case studies"
+    subtitle="Three diistinct examples"
   >
     {#each portfolios as item}
       <PortfolioItem {item} />
