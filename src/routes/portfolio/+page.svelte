@@ -37,7 +37,7 @@
   </Portfolio>
 </Section>
 
-<p class="text-center">Selected other projects and engagements:</p>
+<h1 class="text-center">Selected other projects and engagements:</h1>
 <ul class="w-full text-center">
   <li class="list-row">✈️ Civil Aviation Authority - Obstruction Management website - Developer</li>
   <li class="list-row">
