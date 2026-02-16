@@ -3,6 +3,7 @@
   import favicon from '$lib/assets/favicon.svg';
   import { DarkMode } from 'flowbite-svelte';
   import { Navbar, NavBrand, NavHamburger, NavUl, NavLi, Button } from 'flowbite-svelte';
+  import { LinkOutline } from 'flowbite-svelte-icons';
   let { children } = $props();
 </script>
 
@@ -23,7 +24,7 @@
     <NavUl>
       <NavLi href="/">Home</NavLi>
       <NavLi href="about">About</NavLi>
-      <NavLi href="services">Services & Pricing</NavLi>
+      <NavLi href="contact">Contact</NavLi>
     </NavUl>
   </Navbar>
 </header>

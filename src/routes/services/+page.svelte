@@ -47,7 +47,7 @@
       <p class="text-gray-500 dark:text-gray-400">
         Get in touch on the button below and we'll have a chat :)
       </p>
-      <a href="brass-tacks">
+      <a href="contact">
         <Button
           size="xl"
           color="light"

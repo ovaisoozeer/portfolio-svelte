@@ -13,36 +13,28 @@
       {#snippet h1()}Hi, my name is Ovais{/snippet}
       {#snippet paragraph()}
         <VolumeUpOutline class="inline" /> əʊveɪs | he/him<br /><br />
-        A platform-agnostic, hands-on tech lead who enjoys collaboration.<br />
-        I build applications, services, and platforms for the public and private sector.<br />
+        A platform-agnostic, hands-on tech lead who enjoys collaboration.<br /><br />
+        I build applications, services, and platforms for all sectors.<br /><br />
+        I also contribute by way of tech community events.<br />
       {/snippet}
     </HeroHeader>
     <div class="place-self-center lg:col-span-12">
       <a href="about">
         <Button
-          color="light"
           size="xl"
-          class="mr-3 inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium  text-white hover:bg-primary-800 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+          color="light"
+          class="mr-3 inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
         >
           About
         </Button>
       </a>
-      <a href="explore">
-        <Button
-          color="light"
-          size="xl"
-          class="mr-3 inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium  text-white hover:bg-primary-800 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-        >
-          Explore
-        </Button>
-      </a>
-      <a href="brass-tacks">
+      <a href="contact">
         <Button
           size="xl"
           color="light"
           class="inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
         >
-          Get down to brass tacks
+          Contact
         </Button>
       </a>
     </div>

@@ -2,7 +2,7 @@
   import { Section, Cta } from 'flowbite-svelte-blocks';
 </script>
 
-<Section name="cta">
+<Section>
   <Cta ctatype="heading">
     {#snippet h2()}Change over Planning{/snippet}
     <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">

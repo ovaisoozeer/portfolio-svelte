@@ -2,7 +2,7 @@
   import { Section, Faq, FaqItem } from 'flowbite-svelte-blocks';
 </script>
 
-<Section name="faq">
+<Section name="portfolio">
   <h2 class="mb-8 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
     Cabinet Office - Voter card registration
   </h2>
