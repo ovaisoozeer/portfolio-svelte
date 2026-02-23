@@ -19,15 +19,14 @@
       {/snippet}
     </HeroHeader>
     <div class="place-self-center lg:col-span-12">
-      <a href="about">
-        <Button
-          size="xl"
-          color="light"
-          class="inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-        >
-          About
-        </Button>
-      </a>
+      <Button
+        href="about"
+        size="xl"
+        color="light"
+        class="inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+      >
+        About
+      </Button>
     </div>
   </div>
   <!-- <div class="hidden lg:col-span-5 lg:mt-0 lg:flex">
