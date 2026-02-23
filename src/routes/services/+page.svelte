@@ -10,42 +10,30 @@
   <Faq>
     <FaqItem>
       {#snippet h3()}Types of work{/snippet}
-      <p class="text-gray-500 dark:text-gray-400">
-        The things I value are my time, experience and commitment
-      </p>
-      <p class="text-gray-500 dark:text-gray-400">Consider the following types of engagement:</p>
-      <p class="text-gray-500 dark:text-gray-400">
-        (A) Contributing/coaching full time for a scoped project
+      <p>
+        <em>A: Leading/mentoring fractionally towards a long term goal </em>
       </p>
       <p class="text-gray-500 dark:text-gray-400">
-        (B) Leading/mentoring fractionally towards a long term goal
+        My experience enables me to deeply understand and steer existing teams. By doing a
+        fractional role (1/2 a day or more per week), I am able to invest the rest of my time into
+        other clients, and personal development - which you benefit from. Over time my influence can
+        help the wider organisation achieve its wider goals.
+      </p>
+      <p>
+        <em>B: Contributing/coaching full time for a scoped project </em>
       </p>
       <p class="text-gray-500 dark:text-gray-400">
-        <em>Why choose B?</em>
-      </p>
-      <p class="text-gray-500 dark:text-gray-400">
-        My experience means I can understand and steer existing teams. By doing a fractional role
-        (1/2 a day or more per week), I am able to invest the rest of my time into other clients,
-        and personal development which you benefit from. And over time I tend to influence others,
-        which optimises the wider organisation in achieving its outcomes.
-      </p>
-      <p class="text-gray-500 dark:text-gray-400">
-        If you do need A, I am a competent tech lead and can coach your team as a contributor.
-        However, as this is highly demanding I do not commit to prolonged engagements.
+        I am a competent tech lead and can coach your team as a contributor. However, as this is
+        highly demanding I do not commit to prolonged engagements.
       </p>
     </FaqItem>
     <FaqItem>
       {#snippet h3()}Billing{/snippet}
-      <p class="text-gray-500 dark:text-gray-400">
-        The type of work I prefer translates to an hourly/daily rate (rather than fixed price). I am
-        open to a retainer or fixed term contracts.
+      <p>
+        At the time of writing this my rate begins at £500/day.
       </p>
       <p class="text-gray-500 dark:text-gray-400">
-        Not all work is as well defined as this, and I'll increment/decrement depending on the
-        engagement.
-      </p>
-      <p class="text-gray-500 dark:text-gray-400">
-        Get in touch on the button below and we'll have a chat :)
+        Get in touch on the button below for a conversation :)
       </p>
       <a href="contact">
         <Button
