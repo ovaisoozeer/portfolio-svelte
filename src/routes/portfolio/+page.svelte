@@ -10,11 +10,10 @@
     {#snippet h2()}Cabinet Office - Architect - Voter card registration{/snippet}
     <p class="mb-4">National infrastructure project architecture and service assessment</p>
     <p class="mb-4">
-      As an architect on the voter cards programme, I had a hand in designing the architecture of
-      the system, working closely with specialists on threat modelling and user experience. I owned
-      the technical beta assessment for the overseas and absent voter registration route of the
-      programme. I also developed the GDS design system prototype, re-using components of DVLA, Blue
-      Badge, and HMPO sites.
+      As an architect on the voter cards programme, I contributed to the design the architecture of
+      the platform, working closely with specialists on threat modelling and user experience. I
+      owned the technical beta assessment for the overseas and absent voter registration website. I
+      also developed the prototype.
     </p>
 
     {#snippet image()}
@@ -27,11 +26,10 @@
     {#snippet h2()}Mars, Inc. - Tech Lead - Platform engineering{/snippet}
     <p class="mb-4">National infrastructure project architecture and service assessment</p>
     <p class="mb-4">
-      I was tasked to set up a platform engineering team, delivering coaching and tooling as needed
-      within a hierarchical business unit. I helped the team to increase predictability and
-      productiveness through coaching of business and tech stakeholders in a more product-aligned
-      mindset, supporting a culture of continuous improvement, and developing tooling to support
-      business users and feature teams.
+      I was tasked to set up a platform engineering team, delivering coaching and tooling as needed.
+      I increased predictability and productiveness through coaching of business and tech
+      stakeholders, supporting a culture of continuous improvement, and developing tooling to
+      support business users and feature teams.
     </p>
     {#snippet image()}
       <div class="bg-white">
@@ -44,7 +42,7 @@
     <p class="mb-4">National infrastructure project architecture and service assessment</p>
     <p class="mb-4">
       I was asked to manage an internal team at TVG, during a period of major refactoring and
-      unexpected changes of staff. I supported a diverse team with their personal development whilst
+      unexpected changes. I supported a diverse team with their personal development whilst
       ensuring that the product owner's vision was delivered.
     </p>
     {#snippet image()}

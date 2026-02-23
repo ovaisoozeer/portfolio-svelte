@@ -4,33 +4,33 @@
 
 <Section>
   <Cta ctatype="heading">
-    {#snippet h2()}Change over Planning{/snippet}
+    {#snippet h2()}Breadth and depth{/snippet}
     <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
-      Optimise outcomes with minimal waste. Review portfolio.
+      Read about some of my previous work
     </p>
     <a
       href="portfolio"
       class="mr-2 mb-2 rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:outline-none dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
     >
-      Portfolio
+      Review portfolio
     </a>
   </Cta>
   <Cta ctatype="heading" class="mt-16">
-    {#snippet h2()}Transparency over Guardedness{/snippet}
+    {#snippet h2()}Working in the open{/snippet}
     <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
-      Psychological safety promotes healthy discussion. Peruse pricing.
+      I prefer to speak candidly.
     </p>
     <a
       href="services"
       class="mr-2 mb-2 rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:outline-none dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
     >
-      Services & Pricing
+      Check out my pricing
     </a>
   </Cta>
   <Cta ctatype="heading" class="mt-16">
-    {#snippet h2()}Autonomy over Hierarchy{/snippet}
+    {#snippet h2()}Start with why{/snippet}
     <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
-      Trust in contributors with clear boundaries. Explore collaborations.
+      I enjoy collaborating with others on clear goals.
     </p>
     <a
       href="links"

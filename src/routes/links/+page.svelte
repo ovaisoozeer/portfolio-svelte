@@ -6,7 +6,7 @@
   <Cta ctatype="heading">
     {#snippet h2()}Content{/snippet}
     <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
-      Meetup content, developing thoughts, and misc musings on my blog.
+      Write-ups, developing ideas, and misc musings on my blog.
     </p>
     <a
       target="_blank"
@@ -22,7 +22,7 @@
       Generalist World is a commmunity of polymaths.
     </p>
     <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
-      and Ramen Club is a founders' community.
+      Ramen Club is a founders' community.
     </p>
     <a
       target="_blank"
@@ -42,7 +42,7 @@
   <Cta ctatype="heading" class="mt-16">
     {#snippet h2()}Events{/snippet}
     <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
-      Attend one of my London-based meetups
+      London-based meetups.
     </p>
     <a
       target="_blank"

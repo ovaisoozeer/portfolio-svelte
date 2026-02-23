@@ -13,9 +13,9 @@
       {#snippet h1()}Hi, my name is Ovais{/snippet}
       {#snippet paragraph()}
         <VolumeUpOutline class="inline" /> əʊveɪs | he/him<br /><br />
-        A platform-agnostic, hands-on tech lead who enjoys collaboration.<br /><br />
-        I build applications, services, and platforms for all sectors.<br /><br />
-        I also contribute by way of tech community events.<br />
+        A hands-on tech lead who enjoys collaboration.<br /><br />
+        I build applications and services.<br /><br />
+        I also give back to the community.<br />
       {/snippet}
     </HeroHeader>
     <div class="place-self-center lg:col-span-12">
