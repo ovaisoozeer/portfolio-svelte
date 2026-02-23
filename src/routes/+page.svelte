@@ -18,7 +18,7 @@
         I also give back to the community.<br />
       {/snippet}
     </HeroHeader>
-    <div class="place-self-center lg:col-span-12">
+    <div class="place-self-center lg:col-span-12 text-center">
       <Button
         href="about"
         size="xl"
