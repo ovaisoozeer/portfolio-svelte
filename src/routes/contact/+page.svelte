@@ -37,7 +37,7 @@
       {#snippet h3()}Calendar{/snippet}
       {#snippet paragraph()}
         <a target="_blank" href="https://calendar.app.google/PteCMAz5AeiBRbrp9">
-          <u>Book meeting</u>
+          <u>Book a meeting</u>
         </a>
       {/snippet}
     </FeatureItem>
