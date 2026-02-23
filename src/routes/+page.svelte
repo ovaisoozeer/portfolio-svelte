@@ -23,18 +23,9 @@
         <Button
           size="xl"
           color="light"
-          class="mr-3 inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-        >
-          About
-        </Button>
-      </a>
-      <a href="contact">
-        <Button
-          size="xl"
-          color="light"
           class="inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
         >
-          Contact
+          About
         </Button>
       </a>
     </div>
