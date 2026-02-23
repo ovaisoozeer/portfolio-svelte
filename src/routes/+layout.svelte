@@ -1,18 +1,17 @@
 <script lang="ts">
   import './layout.css';
-  import favicon from '$lib/assets/favicon.svg';
+  import faviconoo from '$lib/assets/favicon-oo.png';
   import { DarkMode } from 'flowbite-svelte';
   import { Navbar, NavBrand, NavHamburger, NavUl, NavLi, Button } from 'flowbite-svelte';
-  import { LinkOutline } from 'flowbite-svelte-icons';
   let { children } = $props();
 </script>
 
-<svelte:head><link rel="icon" href={favicon} /></svelte:head>
+<svelte:head><link rel="icon" href={faviconoo} /></svelte:head>
 
 <header>
   <Navbar>
     <NavBrand href="/">
-      <img src={favicon} class="mr-3 h-6 sm:h-9" alt="Logo" />
+      <img src={faviconoo} class="mr-3 h-6 sm:h-9" alt="Logo" />
       <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
         Ovais Oozeer
       </span>
