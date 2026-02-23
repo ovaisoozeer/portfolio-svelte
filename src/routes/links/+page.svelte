@@ -9,6 +9,7 @@
       Meetup content, developing thoughts, and misc musings on my blog.
     </p>
     <a
+      target="_blank"
       href="https://devgutfeel.substack.com"
       class="mr-2 mb-2 rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:outline-none dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
     >
@@ -24,12 +25,14 @@
       and Ramen Club is a founders' community.
     </p>
     <a
+      target="_blank"
       href="https://generalist.world/"
       class="mr-2 mb-2 rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:outline-none dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
     >
       Generalist World
     </a>
     <a
+      target="_blank"
       href="https://www.ramenclub.so/"
       class="mr-2 mb-2 rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:outline-none dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
     >
@@ -42,6 +45,7 @@
       Attend one of my London-based meetups
     </p>
     <a
+      target="_blank"
       href="https://luma.com/devgutfeel"
       class="mr-2 mb-2 rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:outline-none dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
     >
