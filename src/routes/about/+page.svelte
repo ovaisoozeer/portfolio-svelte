@@ -37,7 +37,7 @@
   <Cta ctatype="heading" class="mt-16">
     {#snippet h2()}Start with why{/snippet}
     <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
-      I enjoy collaborating with others on clear goals.
+      I enjoy collaborating on shared goals, and figuring out what those might be.
     </p>
     <a
       href="links"
