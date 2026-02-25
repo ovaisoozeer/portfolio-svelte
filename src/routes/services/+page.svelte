@@ -1,8 +1,14 @@
 <script lang="ts">
-  import { Button } from 'flowbite-svelte';
+  import { Breadcrumb, BreadcrumbItem, Button } from 'flowbite-svelte';
   import { Faq, FaqItem, Section } from 'flowbite-svelte-blocks';
 </script>
-
+<div class="place-self-center lg:col-span-12">
+  <Breadcrumb aria-label="Breadcrumbs">
+    <BreadcrumbItem href="/" home>Home</BreadcrumbItem>
+    <BreadcrumbItem href="about">About</BreadcrumbItem>
+    <BreadcrumbItem href="services">Services</BreadcrumbItem>
+  </Breadcrumb>
+</div>
 <Section>
   <h2 class="mb-8 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
     Services and pricing

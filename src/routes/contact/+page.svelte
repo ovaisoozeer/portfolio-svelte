@@ -1,8 +1,15 @@
 <script lang="ts">
   import cvpdf from '$lib/assets/cv.pdf';
+    import { Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
   import { Section, HeroHeader, FeatureDefault, FeatureItem } from 'flowbite-svelte-blocks';
   import { CalendarPlusOutline, DownloadOutline, InboxOutline } from 'flowbite-svelte-icons';
 </script>
+<div class="place-self-center lg:col-span-12">
+  <Breadcrumb aria-label="Breadcrumbs">
+    <BreadcrumbItem href="/" home>Home</BreadcrumbItem>
+    <BreadcrumbItem href="contact">Contact</BreadcrumbItem>
+  </Breadcrumb>
+</div>
 
 <Section>
   <HeroHeader

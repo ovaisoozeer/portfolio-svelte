@@ -1,7 +1,14 @@
 <script lang="ts">
+    import { Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
   import { Section, Cta } from 'flowbite-svelte-blocks';
 </script>
-
+<div class="place-self-center lg:col-span-12">
+  <Breadcrumb aria-label="Breadcrumbs">
+    <BreadcrumbItem href="/" home>Home</BreadcrumbItem>
+    <BreadcrumbItem href="about">About</BreadcrumbItem>
+    <BreadcrumbItem href="links">Content, Community, and Events</BreadcrumbItem>
+  </Breadcrumb>
+</div>
 <Section>
   <Cta ctatype="heading">
     {#snippet h2()}Content{/snippet}

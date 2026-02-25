@@ -20,11 +20,6 @@
       <NavHamburger />
       <DarkMode />
     </div>
-    <NavUl>
-      <NavLi href="/">Home</NavLi>
-      <NavLi href="about">About</NavLi>
-      <NavLi href="contact">Contact</NavLi>
-    </NavUl>
   </Navbar>
 </header>
 {@render children()}

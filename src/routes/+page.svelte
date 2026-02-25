@@ -1,7 +1,7 @@
 <script lang="ts">
   import { Section, HeroHeader } from 'flowbite-svelte-blocks';
   import { Button } from 'flowbite-svelte';
-  import { ArrowRightOutline, VolumeUpOutline } from 'flowbite-svelte-icons';
+  import { VolumeUpOutline } from 'flowbite-svelte-icons';
 </script>
 
 <Section name="heroVisual">
@@ -23,9 +23,17 @@
         href="about"
         size="xl"
         color="light"
-        class="inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+        class="mr-3 inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
       >
         About
+      </Button>
+      <Button
+        href="contact"
+        size="xl"
+        color="light"
+        class="inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+      >
+        Contact
       </Button>
     </div>
   </div>
