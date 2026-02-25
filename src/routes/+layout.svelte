@@ -17,7 +17,6 @@
       </span>
     </NavBrand>
     <div class="flex items-center lg:order-2">
-      <NavHamburger />
       <DarkMode />
     </div>
   </Navbar>
