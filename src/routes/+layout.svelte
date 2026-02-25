@@ -2,7 +2,7 @@
   import './layout.css';
   import faviconoo from '$lib/assets/favicon-oo.png';
   import { DarkMode } from 'flowbite-svelte';
-  import { Navbar, NavBrand, NavHamburger, NavUl, NavLi, Button } from 'flowbite-svelte';
+  import { Navbar, NavBrand, NavUl, NavLi, Button } from 'flowbite-svelte';
   let { children } = $props();
 </script>
 
