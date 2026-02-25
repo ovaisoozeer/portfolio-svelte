@@ -11,9 +11,9 @@
     <a
       target="_blank"
       href="https://devgutfeel.substack.com"
-      class="mr-2 mb-2 rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:outline-none dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+      class="mb-2 rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:outline-none dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
     >
-      devgutfeel.substack.com
+      Go to devgutfeel.substack.com
     </a>
   </Cta>
   <Cta ctatype="heading" class="mt-16">
@@ -27,29 +27,27 @@
     <a
       target="_blank"
       href="https://generalist.world/"
-      class="mr-2 mb-2 rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:outline-none dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+      class="mr-3 mb-2 rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:outline-none dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
     >
-      Generalist World
+      Go to Generalist World
     </a>
     <a
       target="_blank"
       href="https://www.ramenclub.so/"
-      class="mr-2 mb-2 rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:outline-none dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+      class="mb-2 rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:outline-none dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
     >
-      Ramenclub
+      Go to Ramenclub
     </a>
   </Cta>
   <Cta ctatype="heading" class="mt-16">
     {#snippet h2()}Events{/snippet}
-    <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
-      London-based meetups.
-    </p>
+    <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">London-based meetups.</p>
     <a
       target="_blank"
       href="https://luma.com/devgutfeel"
-      class="mr-2 mb-2 rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:outline-none dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+      class="mb-2 rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:outline-none dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
     >
-      luma.com/devgutfeel
+      Go to luma.com/devgutfeel
     </a>
   </Cta>
 </Section>

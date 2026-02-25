@@ -28,22 +28,19 @@
       </p>
     </FaqItem>
     <FaqItem>
-      {#snippet h3()}Billing{/snippet}
-      <p>
-        At the time of writing this my rate begins at £500/day.
-      </p>
+      {#snippet h3()}Pricing{/snippet}
+      <p>This depends on whether the work is fractional vs full-time, leadership vs contributing, or outcome- vs output-based.</p>
       <p class="text-gray-500 dark:text-gray-400">
         Get in touch on the button below for a conversation :)
       </p>
-      <a href="contact">
-        <Button
-          size="xl"
-          color="light"
-          class="inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-        >
-          Contact
-        </Button>
-      </a>
+      <Button
+        href="contact"
+        size="xl"
+        color="light"
+        class="inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+      >
+        Contact
+      </Button>
     </FaqItem>
   </Faq>
 </Section>

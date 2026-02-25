@@ -34,10 +34,10 @@
       {#snippet icon()}<CalendarPlusOutline
           class="text-primary-600 dark:text-primary-300"
         />{/snippet}
-      {#snippet h3()}Calendar{/snippet}
+      {#snippet h3()}Book a meeting{/snippet}
       {#snippet paragraph()}
         <a target="_blank" href="https://calendar.app.google/PteCMAz5AeiBRbrp9">
-          <u>Book a meeting</u>
+          <u>Go to Google calendar</u>
         </a>
       {/snippet}
     </FeatureItem>

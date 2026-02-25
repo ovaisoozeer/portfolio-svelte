@@ -1,11 +1,13 @@
 <script lang="ts">
-  import { Section, Faq, FaqItem, ContentWithImage, Content } from 'flowbite-svelte-blocks';
-  import { A } from 'flowbite-svelte';
+  import { Section, ContentWithImage } from 'flowbite-svelte-blocks';
+  import { A, Button } from 'flowbite-svelte';
   import dluhc from '$lib/assets/dluhc.png';
   import mars from '$lib/assets/mars.png';
   import tvg from '$lib/assets/tvg.jpg';
 </script>
+<div class="place-self-center lg:col-span-12">
 
+</div>
 <Section name="contentwithimg">
   <ContentWithImage>
     {#snippet h2()}Cabinet Office - Voter card registration{/snippet}
