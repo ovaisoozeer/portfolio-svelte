@@ -4,6 +4,7 @@
   import dluhc from '$lib/assets/dluhc.png';
   import mars from '$lib/assets/mars.png';
   import tvg from '$lib/assets/tvg.jpg';
+  import wcg from '$lib/assets/wcg.jpg';
 </script>
 
 <div class="place-self-center lg:col-span-12">
@@ -14,6 +15,21 @@
   </Breadcrumb>
 </div>
 <Section name="contentwithimg">
+  <ContentWithImage>
+    {#snippet h2()}Wheatley Care Group - Residata{/snippet}
+    <p class="mb-4"><em>Tech Lead</em></p>
+    <p class="mb-4">
+      As architect/tech lead of a small team, I reviewed and rebuilt v11 of a legacy Visual FoxPro
+      desktop app into a modern accessible web application in Dotnet Core/Blazor. Iterative build
+      whilst partnering with the client and parallel running of the desktop and web apps during
+      rollout to Azure.
+    </p>
+    {#snippet image()}
+      <div>
+        <img class="w-full rounded-lg" src={wcg} alt="Wheatley Care Group logo" />
+      </div>
+    {/snippet}
+  </ContentWithImage>
   <ContentWithImage>
     {#snippet h2()}Cabinet Office - Voter card registration{/snippet}
     <p class="mb-4">
