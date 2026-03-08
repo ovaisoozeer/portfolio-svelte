@@ -2,6 +2,7 @@
   import { Breadcrumb, BreadcrumbItem, Button } from 'flowbite-svelte';
   import { Faq, FaqItem, Section } from 'flowbite-svelte-blocks';
 </script>
+
 <div class="place-self-center lg:col-span-12">
   <Breadcrumb aria-label="Breadcrumbs">
     <BreadcrumbItem href="/" home>Home</BreadcrumbItem>
@@ -20,10 +21,10 @@
         <em>A: Leading/mentoring fractionally towards a long term goal </em>
       </p>
       <p class="text-gray-500 dark:text-gray-400">
-        My experience enables me to deeply understand and steer existing teams. By doing a
-        fractional role (1/2 a day or more per week), I am able to invest the rest of my time into
-        other clients, and personal development - which you benefit from. Over time my influence can
-        help the wider organisation achieve its wider goals.
+        My experience enables me to deeply understand and steer teams. By working fractionally (one
+        day or more per week), I am able to split the rest of my time between other clients and
+        personal development - which you benefit from. I focus my insights and contributions on
+        helping your organisation achieve its long term vision.
       </p>
       <p>
         <em>B: Contributing/coaching full time for a scoped project </em>
@@ -35,7 +36,10 @@
     </FaqItem>
     <FaqItem>
       {#snippet h3()}Pricing{/snippet}
-      <p>This depends on whether the work is fractional vs full-time, leadership vs contributing, or outcome- vs output-based.</p>
+      <p>
+        This depends on whether the work is fractional vs full-time, leadership vs contributing, or
+        outcome- vs output-based.
+      </p>
       <p class="text-gray-500 dark:text-gray-400">
         Get in touch on the button below for a conversation :)
       </p>
