@@ -13,7 +13,7 @@
       {#snippet h1()}Hi, my name is Ovais{/snippet}
       {#snippet paragraph()}
         <VolumeUpOutline class="inline" /> əʊveɪs | he/him<br /><br />
-        A hands-on tech lead who enjoys working with others.<br /><br />
+        A framework-agnostic, hands-on tech lead.<br /><br />
         I deliver applications, facilitate conversations, and help teams collaborate.<br /><br />
         I also give back to the community.<br />
       {/snippet}
