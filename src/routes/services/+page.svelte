@@ -21,7 +21,7 @@
         <em>A: Leading/mentoring fractionally towards a long term goal </em>
       </p>
       <p class="text-gray-500 dark:text-gray-400">
-        My experience enables me to deeply understand and steer teams. By working fractionally (one
+        I apply my experience to deeply understand and steer teams. By working fractionally (one
         day or more per week), I am able to split the rest of my time between other clients and
         personal development - which you benefit from. I focus my insights and contributions on
         helping your organisation achieve its long term vision.
