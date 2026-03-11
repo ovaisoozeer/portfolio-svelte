@@ -40,6 +40,9 @@
         This depends on whether the work is fractional vs full-time, leadership vs contributing, or
         outcome- vs output-based.
       </p>
+      <p>
+        I operate through Expertly Pragmatic Ltd (VAT-registered).
+      </p>
       <p class="text-gray-500 dark:text-gray-400">
         Get in touch on the button below for a conversation :)
       </p>
