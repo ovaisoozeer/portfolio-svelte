@@ -19,10 +19,10 @@
     {#snippet h2()}Wheatley Care Group - Residata{/snippet}
     <p class="mb-4"><em>Tech Lead</em></p>
     <p class="mb-4">
-      As architect/tech lead of a small team, I reviewed and rebuilt v11 of a legacy Visual FoxPro
-      desktop app into a modern accessible web application in Dotnet Core/Blazor. Iterative build
-      whilst partnering with the client and parallel running of the desktop and web apps during
-      rollout to Azure.
+      As architect/tech lead of a small team, I analysed and rebuilt a legacy Visual FoxPro desktop
+      application as a modern accessible web app in Dotnet Core/Blazor, deployed to Azure
+      Hybrid IaaS. Built in partnership with end-users with feature parity and the same database as
+      the original.
     </p>
     {#snippet image()}
       <div>
