@@ -4,9 +4,13 @@
   import { DarkMode } from 'flowbite-svelte';
   import { Navbar, NavBrand, NavUl, NavLi, Button } from 'flowbite-svelte';
   let { children } = $props();
+  import { page } from '$app/stores';
 </script>
 
-<svelte:head><link rel="icon" href={faviconoo} /></svelte:head>
+<svelte:head>
+  <link rel="icon" href={faviconoo} />
+  <link rel="canonical" href={`https://www.ovais.dev${$page.url.pathname}`}/>
+</svelte:head>
 
 <header>
   <Navbar>
