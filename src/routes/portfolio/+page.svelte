@@ -5,6 +5,7 @@
   import mars from '$lib/assets/mars.png';
   import tvg from '$lib/assets/tvg.jpg';
   import wcg from '$lib/assets/wcg.jpg';
+  import flare from '$lib/assets/flare.png';
 </script>
 
 <div class="place-self-center lg:col-span-12">
@@ -16,13 +17,29 @@
 </div>
 <Section name="contentwithimg">
   <ContentWithImage>
+    {#snippet h2()}Flare{/snippet}
+    <p class="mb-4"><em>Product Owner</em></p>
+    <p class="mb-4">
+      A slack plugin for more effective team comms. Created to support one of my meet-ups.
+    </p>
+    <p class="mb-4">
+      Simply type <code>/flare [message]</code> and then select a context for the message. Try it out by adding to your workspace with the button below (free).
+    </p>
+    <a href="https://slack.com/oauth/v2/authorize?client_id=8536177591220.11943589454849&scope=channels:history,channels:read,chat:write,chat:write.public,commands,groups:history,im:history,mpim:history&user_scope="><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcSet="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
+    {#snippet image()}
+      <div>
+        <img class="w-full rounded-lg" src={flare} alt="Flare app logo" />
+      </div>
+    {/snippet}
+  </ContentWithImage>
+  <ContentWithImage>
     {#snippet h2()}Wheatley Care Group - Residata{/snippet}
     <p class="mb-4"><em>Tech Lead</em></p>
     <p class="mb-4">
       As architect/tech lead of a small team, I analysed and rebuilt a legacy Visual FoxPro desktop
-      application as a modern accessible web app in Dotnet Core/Blazor, deployed to Azure
-      Hybrid IaaS. Built in partnership with end-users with feature parity and the same database as
-      the original.
+      application as a modern accessible web app in Dotnet Core/Blazor, deployed to Azure Hybrid
+      IaaS. Built in partnership with end-users with feature parity and the same database as the
+      original.
     </p>
     {#snippet image()}
       <div>
