@@ -25,7 +25,7 @@
     <p class="mb-4">
       Simply type <code>/flare [message]</code> and then select a context for the message. Try it out by adding to your workspace with the button below (free).
     </p>
-    <a href="https://slack.com/oauth/v2/authorize?client_id=8536177591220.11943589454849&scope=channels:history,channels:read,chat:write,chat:write.public,commands,groups:history,im:history,mpim:history&user_scope="><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcSet="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
+    <a href="https://slack-flare.onrender.com/slack/install"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcSet="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
     {#snippet image()}
       <div>
         <img class="w-full rounded-lg" src={flare} alt="Flare app logo" />
